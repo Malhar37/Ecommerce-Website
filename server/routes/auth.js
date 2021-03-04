@@ -4,7 +4,6 @@ const { check } = require("express-validator");
 
 const { signup, signout, signin } = require("../controllers/auth");
 
-//we are using check from exp-val for validating the entered fields by the user
 router.post(
   "/signup",
   check("password")
@@ -14,7 +13,6 @@ router.post(
     .isLength({ min: 3 })
     .withMessage("name must be atleast 3 char long"),
   check("email").isEmail().withMessage("Email required"),
-  // check("phone").isMobilePhone(),
   signup
 );
 

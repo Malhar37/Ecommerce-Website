@@ -8,6 +8,6 @@ var categorySchema = new mongoose.Schema({
         maxlength: 32,
         unique: true
     }
-}, { timestamps: true });  //timestamps stores the time whenever the entry is created the schema 
+}, { timestamps: true });  
 
 module.exports = mongoose.model("Category", categorySchema);

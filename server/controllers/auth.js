@@ -39,10 +39,7 @@ exports.signin = (req, res) => {
 };
 
 exports.signup = (req, res) => {
-  //we are using validationResult from exp-val to validate the request and stored in result variable
-  // if the result var has some errors i.e not empty then we will return status code with a json message
-  //.array() method converts the result into a array and their we are accessing the 1st element of the array
-  const result = validationResult(req);
+   const result = validationResult(req);
 
   if (!result.isEmpty()) {
     let temp = result.array();
@@ -51,9 +48,7 @@ exports.signup = (req, res) => {
     });
   }
 
-  //Creating user object using User class and passing data from request.body
   const user = new User(req.body);
-  // save method returs 2 things one is the error and other is the saved user
   user.save((err, user) => {
     if (err) {
       return res.status(400).json(err);
@@ -65,7 +60,6 @@ exports.signup = (req, res) => {
 
 //protected routes and middlewares
 
-//usually we write next() in middleware. but expressJwt method has already got next()
 exports.isSignedIn = expressJwt({
   secret: process.env.SECRET,
   userProperty: "auth",

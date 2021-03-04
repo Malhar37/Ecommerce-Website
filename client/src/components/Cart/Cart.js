@@ -51,11 +51,6 @@ const Cart = () => {
             cartEmpty(() => {});
             setReload(!reload);
           },
-          // prefill: {
-          //   name: "Malhar Lohar",
-          //   email: "loharmalhar@gmail.com",
-          //   contact: "7798559068",
-          // },
           notes: {
             address: "Nashik",
           },

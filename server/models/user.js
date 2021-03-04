@@ -9,7 +9,7 @@ var userSchema = new Schema(
       type: String,
       required: true,
       maxlength: 32,
-      trim: true, //Trim down all extra spaces
+      trim: true,
     },
     lastname: {
       type: String,
@@ -69,9 +69,9 @@ userSchema.methods = {
 
     try {
       return crypto
-        .createHmac("sha256", this.salt) //createHmac takes 2 para
-        .update(plainpassword) //sha256 is an hash algo
-        .digest("hex"); //digest returns op in hex bin or decimal
+        .createHmac("sha256", this.salt) 
+        .update(plainpassword) 
+        .digest("hex"); 
     } catch (err) {
       return "";
     }
