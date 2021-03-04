@@ -1,0 +1,46 @@
+#footer {
+  /* color: white; */
+  background-color: #78c4d4;
+  text-align: center;
+}
+#footer .top {
+  padding: 30px 0 0 0;
+}
+#footer .bottom {
+  padding: 20px 0;
+}
+
+#footer .social-links a {
+  background-color: black;
+  font-size: 18px;
+  display: inline-block;
+  color: white;
+  padding: 6px 0;
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  margin-right: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+#footer .social-links .twitter:hover {
+  background: #00acee;
+  color: white;
+}
+#footer .social-links .instagram:hover {
+  background: #dd2a7b;
+  color: white;
+}
+#footer .social-links .github:hover {
+  background: darkgray;
+  color: white;
+}
+#footer .social-links .facebook:hover {
+  background: #3b5998;
+  color: white;
+}
+#footer .social-links .linkedin:hover {
+  background: #0e76a8;
+  color: white;
+}

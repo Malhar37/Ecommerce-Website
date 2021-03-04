@@ -1,0 +1,43 @@
+.signupform {
+    background-color: white;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    margin: 15px 5px;
+  }
+  
+  .signupform .img {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .signupform img {
+    width: 100%;
+  }
+  
+  .signupform input{
+    padding: 20px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .vl {
+    margin-left: 10px;
+    border-left: thin solid lightgrey;
+  }
+  @media (min-width: 900px) {
+    .signupform .form {
+      margin: 70px;
+    }
+    .main {
+      margin: 50px auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .signupform .vl {
+      display: none;
+    }
+  }
+  

@@ -1,0 +1,50 @@
+.signinform {
+  background-color: white;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  margin: 15px 5px;
+}
+
+.signinform .img {
+  display: flex;
+  justify-content: center;
+}
+
+.signinform img {
+  width: 100%;
+}
+
+.signinform input[type="email"] {
+  padding: 20px 15px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: 10px;
+}
+
+.signinform input[type="password"] {
+  padding: 20px 15px;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.vl {
+  margin-left: 10px;
+  border-left: thin solid lightgrey;
+}
+@media (min-width: 900px) {
+  .signinform .form {
+    margin: 70px;
+  }
+  .main {
+    margin: 50px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .signinform .vl {
+    display: none;
+  }
+}

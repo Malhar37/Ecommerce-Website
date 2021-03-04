@@ -1,0 +1,45 @@
+.card-element {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 15px 5px;
+}
+
+.card-element button {
+  background: transparent;
+  border-radius: 20px;
+  border: 1px solid #2487ce;
+  padding: 7px 20px;
+  color: #2487ce;
+  transition: 0.3s;
+}
+
+.card-element button:hover {
+  background: #2487ce;
+  color: white;
+}
+
+@media (min-width: 900px) {
+  /* .card-element button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  } */
+  
+}
+.card-element .badges span {
+  margin: 0 5px;
+}
+
+.card-element .price {
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.card-element .title {
+  margin: "10px";
+  font-weight: 500;
+}

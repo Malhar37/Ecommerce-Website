@@ -1,0 +1,62 @@
+.card-element1 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 15px 5px;
+  }
+  
+  .card-element1 button {
+    background: transparent;
+    border-radius: 20px;
+    border: 0;
+    font-size: 20px;
+    padding: 5px 15px;
+    /* color: #2487ce; */
+    transition: 0.3s;
+  }
+  
+
+  .card-element1 .addsub {
+    background: transparent;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 5px 13px;
+    padding-top: 3px;
+    color: #2487ce;
+    transition: 0.3s;
+    margin: auto 5px; 
+  }
+  .card-element1 .addsub:hover {
+    color: white;
+    background-color: #2487ce;
+  }
+  .card-element1 button:hover {
+    /* background: ; */
+    color: #2487ce;
+  }
+  
+  @media (min-width: 900px) {
+    /* .card-element1 button {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    } */
+    
+  }
+  .card-element1 .badges span {
+    margin: 0 5px;
+  }
+  
+  .card-element1 .price {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .card-element1 .title {
+    margin: "10px";
+    font-weight: 500;
+  }
+  

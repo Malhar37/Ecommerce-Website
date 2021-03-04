@@ -1,0 +1,8 @@
+.navlinks
+{
+    transition: 0.3s;    
+}
+.navlinks:hover
+{
+    text-decoration: white;
+}
